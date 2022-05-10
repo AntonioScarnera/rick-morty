@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <header-component :message="titolo"/>
-    <grid-component/>
+    <main>
+      <grid-component/>
+    </main>
+
   </div>
 </template>
 
@@ -14,7 +17,9 @@ export default {
   name: 'App',
   components: {
     HeaderComponent,
-    GridComponent
+    GridComponent,
+
+    
   },
   data(){
     return{
